@@ -1,0 +1,8 @@
+spec:
+  containers:
+    - name: prophet-app
+      image: <snowflake repo url>/prophet-app:latest
+  endpoints:
+    - name: prophet-app
+      port: 9090
+      public: true
